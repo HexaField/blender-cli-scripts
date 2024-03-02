@@ -5,10 +5,6 @@ import bpy
 import sys
 import os
 
-# Clear all default objects
-cols = bpy.data.collections
-cols.remove(cols['Collection'], do_unlink=True)
-
 # Get all args after "--"
 argv = sys.argv
 argv = argv[argv.index("--") + 1:]
