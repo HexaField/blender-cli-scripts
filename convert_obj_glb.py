@@ -1,5 +1,5 @@
 # Convert .obj files to .glb files. Usage:
-# blender --background --python ./convert.py -- <directory>
+# blender --background --python ./convert_obj_glb.py -- <directory>
 
 import bpy
 import sys
